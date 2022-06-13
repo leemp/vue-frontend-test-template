@@ -5,8 +5,8 @@
 .mode box
 .tables
 
-DROP TABLE data_groups;
-DROP TABLE record_groups;
+-- DROP TABLE data_groups;
+-- DROP TABLE record_groups;
 
 CREATE TABLE IF NOT EXISTS data_groups (
   id integer PRIMARY KEY AUTOINCREMENT,
