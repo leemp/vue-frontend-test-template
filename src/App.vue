@@ -1,23 +1,20 @@
 <template>
-  <div id="app">
-    <Root/>
-  </div>
+  <HelloWorld msg="Vue 3 in CodeSandbox test task pack" />
 </template>
 
 <script>
-import Root from "./components/root";
-
+import HelloWorldVue from "./components/HelloWorld.vue";
 export default {
   name: "App",
   components: {
-    Root
-  }
+    HelloWorld: HelloWorldVue,
+  },
 };
 </script>
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
